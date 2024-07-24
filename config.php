@@ -13,4 +13,7 @@ return [
     'github_client_id' => getenv('GITHUB_CLIENT_ID'),
     'github_client_secret' => getenv('GITHUB_CLIENT_SECRET'),
     'github_redirect_uri' => getenv('GITHUB_REDIRECT_URI'),
+    'google_client_id' => getenv('GOOGLE_CLIENT_ID'),
+    'google_client_secret' => getenv('GOOGLE_CLIENT_SECRET'),
+    'google_redirect_uri' => getenv('GOOGLE_REDIRECT_URI'),
 ];

@@ -25,7 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -50,6 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <button type="submit">Login</button>
         </form>
         <p>OR</p>
-        <a href="oauth_callback.php">Login with GitHub</a>
+        <a href="oauth_callback.php?provider=github">Login with GitHub</a>
+        <a href="oauth_callback.php?provider=google">Login with Google</a>
     </body>
 </html>
