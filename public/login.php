@@ -34,7 +34,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <a href="index.php">Home</a>
@@ -50,5 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="password" name="password" id="password" required>
             <button type="submit">Login</button>
         </form>
+        <p>OR</p>
+        <a href="oauth_callback.php">Login with GitHub</a>
     </body>
 </html>
